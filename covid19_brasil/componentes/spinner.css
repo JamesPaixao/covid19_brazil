@@ -1,0 +1,30 @@
+.spinner {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: spin 2s linear infinite;
+    border-radius: 30px;
+}
+
+.orange {
+    border: 5px solid yellow;
+    border-top-color: orange;
+}
+
+.green {
+    
+    border: 5px solid lightgreen;
+    border-top-color: green;
+}
+
+.blue {
+    border: 5px solid lightblue;
+    border-top-color: blue;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate( 360deg );
+    }
+}

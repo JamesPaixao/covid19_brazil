@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
+body{
+    background-color: black;
+    color: white;
+}
+header {
+    width: 1200px;
+    height: 100px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    font: bold  50px/100px serif;
+    text-align: center;
+    color: green;
+}
+
+main {
+    width: 1200px;
+    height: 600px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map-imagem {
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+
+svg {
+    width: 600px;
+    height: 600px;
+}
+
+g {
+    stroke: white;
+    stroke-width: 250px;
+}
+
+g:hover {
+    fill: green;
+}
+
+.info {
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+
+.info {
+    width: 600px;
+    height: 600px;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.estado {
+    width: 500px;
+    height: 95px;/*Sobram 45px para espaçamento*/
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font: bolder 50px serif;
+    line-height: 95px;
+    text-align: center;
+    background-color: white;
+    color: green;
+}
+
+.card {
+    width: 500px;
+    height: 120px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    font: 40px serif;
+    text-align: center;
+}
+
+.suspeitos {
+    background-color: blue;
+}
+
+.confirmados {
+    background-color: yellow;
+}
+
+.mortes {
+    background-color: red;
+}
+
+.numeros {
+    font: bolder 40px serif;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    font: bold 30px serif;
+}
+
+footer {
+    width: 1200px;
+    height: 50px;
+    box-sizing: border-box;
+    font: bold  25px/50px serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
